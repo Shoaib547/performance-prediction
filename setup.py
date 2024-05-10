@@ -5,7 +5,7 @@ hyphen_e_dot = '-e .'
 
 def get_requirements(file_path: str) -> List[str]:
     '''
-    this function will retutn the list of requirements
+    this function will return the list of requirements
     '''
     requirements = []
     with open(file_path) as file_obj:

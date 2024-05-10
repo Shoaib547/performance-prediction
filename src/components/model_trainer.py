@@ -35,8 +35,8 @@ class ModelTrainer:
             )
 
             models = {
-                "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
+                "Random Forest": RandomForestRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
                 "XGBRegressor": XGBRegressor(),
